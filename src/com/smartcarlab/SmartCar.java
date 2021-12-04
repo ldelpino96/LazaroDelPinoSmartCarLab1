@@ -19,7 +19,6 @@ public class SmartCar implements SelfCheckCapable {
 	private Wheels bearings;
 	
 	public SmartCar() {
-		
 		powersource = new Battery();
 		recorder = new Camera();
 		computer = new CPU();
