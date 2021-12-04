@@ -1,6 +1,8 @@
 package com.smartcarlab;
 
-public abstract class Battery {
+import edu.fiu.sysdesign.SelfCheckCapable;
+
+public abstract class Battery implements SelfCheckCapable {
 	private float capacity;
 	private int Charge;
 	private int size;

@@ -1,6 +1,8 @@
 package com.smartcarlab;
 
-public abstract class Motors {
+import edu.fiu.sysdesign.SelfCheckCapable;
+
+public abstract class Motors implements SelfCheckCapable {
 	private String type;
 	private String Location;
 	public abstract int Brake();

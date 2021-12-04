@@ -1,6 +1,8 @@
 package com.smartcarlab;
 
-public abstract class Speaker {
+import edu.fiu.sysdesign.SelfCheckCapable;
+
+public abstract class Speaker implements SelfCheckCapable {
 	private int OutputCapacity;
 	private int Quantity;
 	public abstract int PlaySound();

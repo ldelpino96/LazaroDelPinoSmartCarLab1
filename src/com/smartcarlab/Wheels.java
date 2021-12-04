@@ -1,6 +1,8 @@
 package com.smartcarlab;
 
-public abstract class Wheels {
+import edu.fiu.sysdesign.SelfCheckCapable;
+
+public abstract class Wheels implements SelfCheckCapable {
 	private int Quantity;
 	private String Location;
 	public abstract int Rotate();

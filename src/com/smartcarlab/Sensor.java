@@ -1,6 +1,8 @@
 package com.smartcarlab;
 
-public abstract class Sensor {
+import edu.fiu.sysdesign.SelfCheckCapable;
+
+public abstract class Sensor implements SelfCheckCapable  {
 	private int Range;
 	private String Location;
 	private int NumberofSensors;

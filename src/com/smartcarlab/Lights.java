@@ -1,6 +1,8 @@
 package com.smartcarlab;
 
-public abstract class Lights {
+import edu.fiu.sysdesign.SelfCheckCapable;
+
+public abstract class Lights implements SelfCheckCapable {
 	private String Color;
 	private double Intensity;
 	private int NumberofOLED;

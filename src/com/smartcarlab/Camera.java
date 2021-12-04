@@ -1,6 +1,8 @@
 package com.smartcarlab;
 
-public abstract class Camera {
+import edu.fiu.sysdesign.SelfCheckCapable;
+
+public abstract class Camera implements SelfCheckCapable{
 	public int LensQuantity;
 	public int LensDepth;
 	public double LensAperture;

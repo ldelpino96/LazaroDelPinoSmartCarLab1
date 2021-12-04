@@ -1,6 +1,8 @@
 package com.smartcarlab;
 
-public abstract class CPU {
+import edu.fiu.sysdesign.SelfCheckCapable;
+
+public abstract class CPU implements SelfCheckCapable {
 	private float MemoryCapacity;
 	private String Bluetooth;
 	private String WifiReceptor;
